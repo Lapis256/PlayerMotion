@@ -7,6 +7,6 @@ Player implementation of `applyImpulse` and `clearVelocity`.
 - Preview 1.19.70.22
 
 ## ライセンス / License
-PlayerMotionは [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)の元リリースされています。
+PlayerMotionは[CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)の元リリースされています。
 
 PlayerMotion is released under [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed).
