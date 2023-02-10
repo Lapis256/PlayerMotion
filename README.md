@@ -1,7 +1,7 @@
 # PlayerMotion
-`applyImpulse`と`clearVelocity`のプレイヤー向け実装
+`clearVelocity`と`setVelocity`のプレイヤー向け実装
 
-Player implementation of `applyImpulse` and `clearVelocity`.
+Player implementation of `clearVelocity` and `setVelocity`.
 
 ## 動作確認済みバージョン / Operation confirmed version
 - Preview 1.19.70.22
