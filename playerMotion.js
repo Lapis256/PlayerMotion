@@ -11,17 +11,16 @@
  */
 
 /**
- * @param {Player} player
+ * @param {Entity} player
  */
 export function playerClearVelocity(player) {
-    const { x, y } = player.getRotation();
-    player.teleport(player.location, player.dimension, x, y, false);
+    player.applyKnockback(0, 0, 0, 0);
 }
 
 /**
  * @param {Player} player
  * @param {Vector3} vector
  */
-export function playerApplyImpulse(player, { x, y, z }) {
+export function playerSetVelocity(player, { x, y, z }) {
     player.applyKnockback(x, z, Math.sqrt(x ** 2 + z ** 2) * 2.5, y);
 }
